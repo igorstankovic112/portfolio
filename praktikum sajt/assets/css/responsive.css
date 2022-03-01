@@ -1,0 +1,310 @@
+@media screen and (max-width: 1440px) {
+  header .wrap #logo h1 {
+    font-size: 2em;
+  }
+  header .wrap ul li {
+    font-size: 14px;
+  }
+  .prvi {
+    height: 700px;
+  }
+  .prvi .ime h1 {
+    font-size: 45px;
+  }
+  .prvi .ime h2 {
+    font-size: 1.5em;
+  }
+  #about .drugi h1 {
+    font-size: 40px;
+  }
+  #about .drugi .blok {
+    width: 100%;
+    height: 400px;
+  }
+  #about .drugi .blok .slika img {
+    height: 300px;
+    width: 200px;
+  }
+  #about .drugi .blok .tekst {
+    font-size: 20px;
+  }
+  #skills .treci h1 {
+    padding: 10px;
+    margin: 20px;
+    font-size: 40px;
+  }
+  #skills .treci .html figure img {
+    width: 170px;
+    height: 220px;
+  }
+  #skills .treci .html figure figcaption {
+    font-size: 25px;
+  }
+  #projects .cetvrti h1 {
+    color: #FF3B3F;
+    padding: 10px;
+    margin: 10px;
+  }
+  #projects .cetvrti .sajtovi .sajt img {
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 1315px) {
+  #projects .cetvrti h1 {
+    color: #FF3B3F;
+  }
+  #projects .cetvrti .sajtovi {
+    width: 100%;
+  }
+  #projects .cetvrti .sajtovi .sajt img {
+    width: 400px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .wrap {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  header .wrap #logo {
+    width: 100%;
+  }
+  header .wrap #logo h1 {
+    padding: 15px 0;
+    text-align: center;
+  }
+  header .wrap nav {
+    width: 100%;
+    background-color: #CAEBF2;
+  }
+  header .wrap nav ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .prvi {
+    height: 500px;
+  }
+  .prvi .ime h2 {
+    font-size: 1.3em;
+  }
+  #about .drugi h1 {
+    font-size: 35px;
+  }
+  #about .drugi .blok {
+    text-align: center;
+    margin: 15px auto;
+    width: 100%;
+    height: 400px;
+  }
+  #about .drugi .blok .slika {
+    width: 100%;
+  }
+  #about .drugi .blok .slika img {
+    height: 230px;
+    width: 150px;
+  }
+  #about .drugi .blok .tekst {
+    width: 100%;
+    font-size: 17px;
+    margin: 10px;
+  }
+  #skills {
+    height: auto;
+  }
+  #skills .treci {
+    width: 80%;
+  }
+  #skills .treci h1 {
+    font-size: 35px;
+  }
+  #skills .treci .html {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #skills .treci .html figure img {
+    width: 180px;
+    height: 240px;
+  }
+  #skills .treci .html figure figcaption {
+    font-size: 23px;
+  }
+  #projects {
+    height: auto;
+  }
+  #contact {
+    height: auto;
+  }
+  #contact .peti h1 {
+    font-size: 30px;
+  }
+  #contact .peti .mail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contact .peti .mail .levi {
+    width: 50%;
+  }
+  #contact .peti .mail h2 {
+    font-size: 1.1em;
+  }
+  #contact .peti form input[type="text"], #contact .peti [type="email"] {
+    font-size: 1em;
+  }
+  #contact .peti form input[type="submit"] {
+    font-size: 1.1em;
+    margin: 0.5vh 0;
+    padding: 0 1vw;
+    color: #000;
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header .wrap #logo {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+  header .wrap #logo h1 {
+    padding: 15px 0;
+    text-align: center;
+  }
+  header .wrap nav {
+    width: 100%;
+  }
+  header .wrap nav ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .wrap nav ul li {
+    border-style: solid;
+    border-color: #A9A9A9;
+    width: 100%;
+    text-align: center;
+    margin: 4px 0px;
+  }
+  .prvi {
+    height: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .prvi .ime h1 {
+    font-size: 30px;
+  }
+  .prvi .ime h2 {
+    font-size: 1em;
+  }
+  #about .drugi h1 {
+    font-size: 30px;
+  }
+  #about .drugi .blok {
+    width: 100%;
+    height: 400px;
+  }
+  #about .drugi .blok .slika img {
+    height: 150px;
+    width: 100px;
+  }
+  #about .drugi .blok .tekst {
+    font-size: 15px;
+  }
+  #skills .treci h1 {
+    font-size: 30px;
+  }
+  #skills .treci .html figure img {
+    width: 150px;
+    height: 200px;
+  }
+  #skills .treci .html figure figcaption {
+    font-size: 20px;
+  }
+  #projects .cetvrti h1 {
+    color: #FF3B3F;
+  }
+  #projects .cetvrti .sajtovi {
+    width: 100%;
+  }
+  #projects .cetvrti .sajtovi .sajt img {
+    width: 340px;
+    height: 200px;
+  }
+  #projects .cetvrti .sajtovi .sajt .overlay .view {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+  #projects .cetvrti .sajtovi .sajt .overlay .view p {
+    padding-top: 20px;
+    color: #FF3B3F;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  #projects .cetvrti .sajtovi .sajt .overlay .view:hover {
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.678), 0 6px 20px 0 rgba(0, 0, 0, 0.671);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.678), 0 6px 20px 0 rgba(0, 0, 0, 0.671);
+  }
+  #projects .cetvrti .sajtovi .sajt .overlay a {
+    text-decoration: none;
+    color: #fff;
+  }
+  #projects .cetvrti .sajtovi .sajt .overlay p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  #contact {
+    height: auto;
+  }
+  #contact .peti h1 {
+    font-size: 25px;
+  }
+  #contact .peti .mail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contact .peti .mail .levi {
+    width: 80%;
+  }
+  #contact .peti .mail h2 {
+    font-size: 1em;
+  }
+  #contact .peti form input[type="text"], #contact .peti [type="email"] {
+    font-size: 0.8em;
+  }
+  #contact .peti form input[type="submit"] {
+    font-size: 1em;
+    margin: 0.5vh 0;
+    padding: 0 1vw;
+    color: #000;
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

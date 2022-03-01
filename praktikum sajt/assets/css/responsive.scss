@@ -1,0 +1,378 @@
+$white: #fff;
+$black: #000;
+$sky: #CAEBF2;
+$carbon: #A9A9A9;
+$neutral: #EFEFEF;
+$watermelon: #FF3B3F;
+@media screen and (max-width: 1440px){
+    header {
+        .wrap {
+          #logo {
+            h1{
+                font-size: 2em;
+                }
+            }
+            ul {
+                li {
+                    font-size: 14px;
+                }
+              }
+        }
+    }
+    .prvi{
+        height: 700px;
+        .ime{
+            h1{
+                font-size: 45px;
+            }
+            h2{
+                font-size: 1.5em;
+            }
+        }
+        
+    }
+    #about{
+        .drugi{
+          h1{
+              font-size: 40px;  
+          }
+          .blok{
+            width: 100%;
+            height: 400px;
+            .slika{
+              img{
+                height: 300px;
+                width: 200px;
+              }
+            }
+            .tekst{
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      #skills{
+        .treci{
+          h1{
+            padding: 10px;
+            margin: 20px;
+            font-size: 40px; 
+          }
+          .html{
+            figure{
+              img{
+                width: 170px;
+              height: 220px;
+              }
+              figcaption{
+                font-size: 25px;
+              }
+            }
+          }
+        }
+      }
+      #projects{
+        .cetvrti{
+          h1{
+            color: $watermelon;
+            padding: 10px;
+            margin: 10px;
+          }
+          .sajtovi{
+            
+            .sajt{
+              img{
+                margin: 0 auto;
+                width: 500px;
+                height: 300px;
+              }
+            }
+          }
+        }
+      }
+}
+@media screen and (max-width: 1315px){
+    
+    #projects{
+        .cetvrti{
+          h1{
+            color: $watermelon;
+          }
+          .sajtovi{
+            width: 100%;
+            .sajt{
+              img{
+                width: 400px;
+                height: 250px;
+              }
+            }
+          }
+        }
+      }
+}
+@media screen and (max-width: 768px){
+    header {
+        .wrap {
+            justify-content: center;
+            width: 100%;
+          #logo {
+            width: 100%;
+
+            h1{
+                padding: 15px 0;
+                text-align: center;
+                }
+            }
+            nav{
+                width: 100%;
+                background-color: $sky;
+            ul {
+                justify-content: center;
+              }
+            }
+        }
+    }
+    .prvi{
+        height: 500px;
+        .ime{
+            h2{
+                font-size: 1.3em;
+            }
+        }
+    }
+    #about{
+        .drugi{
+          h1{
+              font-size: 35px;  
+          }
+          .blok{
+              text-align: center;
+            margin: 15px auto;
+            width: 100%;
+            height: 400px;
+            .slika{
+                width: 100%;
+                img{
+                    height: 230px;
+                    width: 150px;
+                }
+            }
+            .tekst{
+                width: 100%;
+              font-size: 17px;
+              margin: 10px;
+            }
+          }
+        }
+    }
+    #skills{
+        height: auto;
+        .treci{
+            width: 80%;
+          h1{
+            font-size: 35px;
+          }
+          .html{
+            flex-wrap: wrap;
+            figure{
+              img{
+                width: 180px;
+              height: 240px;
+              }
+              figcaption{
+                font-size: 23px;
+              }
+            }
+          }
+        }
+      }
+    #projects{
+        height: auto;
+    }
+    #contact{
+        height: auto;
+        .peti{
+          h1{
+              font-size: 30px;
+          }
+          .mail{
+              flex-direction: column;
+            .levi{
+              width: 50%;
+            }
+            h2{
+                font-size: 1.1em;
+              }
+          }
+            form input[type="text"],[type="email"]{
+              font-size: 1em;
+            }
+            form input[type="submit"]{
+              font-size: 1.1em;
+                margin: 0.5vh 0;
+                padding: 0 1vw;
+                color: $black;
+                width: 250px;
+                height: 50px;
+                border: none;
+                outline: none;
+              border-radius:15px;
+              }
+            }
+          }
+      
+}
+@media screen and (max-width: 425px){
+    header {
+        .wrap {
+          #logo {
+            justify-content: center;
+            width: 100%;
+            padding: 0;
+            h1{
+                padding: 15px 0;
+                text-align: center;
+                }
+            }
+            nav{
+                width: 100%;
+            ul {
+                justify-content: center;
+                li{
+                    border-style: solid;
+                    border-color: $carbon;                    
+                    width: 100%;
+                    text-align: center;
+                    margin: 4px 0px;
+                }
+              }
+            }
+        }
+    }
+    .prvi{
+        height: 300px;
+        flex-direction: column;
+        justify-content: flex-end;
+        .ime{
+            h1{
+                font-size: 30px;
+            }
+            h2{
+                font-size: 1em;
+            }
+        }
+        
+    }
+    #about{
+        .drugi{
+          h1{
+              font-size: 30px;  
+          }
+          .blok{
+            width: 100%;
+            height: 400px;
+            .slika{
+              img{
+                height: 150px;
+                width: 100px;
+              }
+            }
+            .tekst{
+              font-size: 15px;
+            }
+          }
+        }
+      }
+      #skills{
+        .treci{
+          h1{
+            font-size: 30px; 
+          }
+          .html{
+            figure{
+              img{
+                width: 150px;
+              height: 200px;
+              }
+              figcaption{
+                font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+      #projects{
+        .cetvrti{
+          h1{
+            color: $watermelon;
+          }
+          .sajtovi{
+            width: 100%;
+            .sajt{
+              img{
+                width: 340px;
+                height: 200px;
+              }
+              .overlay{
+                .view{
+                    width: 60px;
+                    height: 60px;
+                    text-align: center;
+                    border-radius: 50%;
+                    background-color: $white;
+                    p{
+                      padding-top: 20px;
+                      color: $watermelon;
+                      font-size: 15px;
+                      font-weight: 700;
+                    }
+                    &:hover{
+                      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.678), 0 6px 20px 0 rgba(0, 0, 0, 0.671);
+                    }
+                  }
+                  a{
+                    text-decoration: none;
+                    color: $white;
+                  }
+                  p{
+                    font-size: 15px;
+                    font-weight: 500;
+                  }
+              }
+            }
+          }
+        }
+      
+}
+#contact{
+    height: auto;
+    .peti{
+      h1{
+          font-size: 25px;
+      }
+      .mail{
+          flex-direction: column;
+        .levi{
+          width: 80%;
+        }
+        h2{
+            font-size: 1em;
+          }
+      }
+        form input[type="text"],[type="email"]{
+          font-size: 0.8em;
+        }
+        form input[type="submit"]{
+          font-size: 1em;
+            margin: 0.5vh 0;
+            padding: 0 1vw;
+            color: $black;
+            width: 250px;
+            height: 50px;
+            border: none;
+            outline: none;
+          border-radius:15px;
+          }
+        }
+      }
+}
